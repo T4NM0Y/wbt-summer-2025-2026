@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+
+ <p>
+    <a href="../index.html">Home</a> |
+    <a href="../html/education.html">Education</a> |
+    <a href="../html/projects.html">Projects</a> |
+    <a href="../html/experience.html">Experience</a> 
+    
+</p>
+
+    <h1>Contact Me</h1>
+    <p>Fill out the form below and I'll get back to you soon.</p>
+
+    <form action="#">
+        <fieldset>
+
+            <table>
+
+                <tr>
+                    <td>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" id="fname" name="fname" required>
+                    </td>
+
+                    <td>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" id="lname" name="lname" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Gender</legend>
+
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label>
+
+                            <input type="radio" id="other" name="gender" value="Other">
+                            <label for="other">Other</label>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Services You're Interested In</legend>
+
+                            <input type="checkbox" id="web" name="service" value="Web Development">
+                            <label for="web">Web Development</label><br>
+
+                            <input type="checkbox" id="mobile" name="service" value="Mobile Development">
+                            <label for="mobile">Mobile Development</label><br>
+
+                            <input type="checkbox" id="ai" name="service" value="AI/ML Development">
+                            <label for="ai">AI/ML Development</label>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="reason">Reason of Contact:</label>
+                    </td>
+                    <td>
+                        <select id="reason" name="reason">
+                            <option value="">Select One</option>
+                            <option value="Project">Project</option>
+                            <option value="Thesis">Thesis</option>
+                            <option value="Job">Job</option>
+                            <option value="Consultation">Consultation</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="appointment">Book an Appointment:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="appointment" name="appointment">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="message">Message:</label>
+                    </td>
+                    <td>
+                        <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
